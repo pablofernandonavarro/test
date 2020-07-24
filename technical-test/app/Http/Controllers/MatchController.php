@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Input;
 class MatchController extends Controller {
 
     public function index() {
+        
         return view('index');
     }
 
